@@ -7,6 +7,7 @@ import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenuBar;
 import javax.swing.border.Border;
 
 public class Main {
@@ -32,8 +33,6 @@ public class Main {
 		label.setHorizontalAlignment(JLabel.CENTER);//set horizontal position of icon+text whitin label
 		//label.setBounds(10,10,360,360);//set X,Y position within frame as wll as dimensions
 		
-		
-		
 		JFrame frame = new JFrame(); //creates a frame
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//exit out out the application by cliking on the X
 		frame.setSize(500, 500); // sets the dimension of the frame 
@@ -41,8 +40,6 @@ public class Main {
 		frame.setVisible(true);// Makes visible 
 		frame.add(label);
 		frame.pack();//the last thing,will break the app if puts before adding all components 
-		
-
 		 
  }
 
