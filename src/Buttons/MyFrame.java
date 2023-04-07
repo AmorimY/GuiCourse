@@ -55,7 +55,7 @@ public class MyFrame  extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==button) {
 			//System.out.println("Hello");
-			label.setVisible(true);
+			label.setVisible(true);//shows the label when clicked 
 			
 		}
 	}
